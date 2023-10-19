@@ -1,0 +1,100 @@
+.container2 {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  .container2 {
+    width: 100%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: flex;
+    background-color: rgb(234, 245, 245);
+  }
+
+  .container2 .rector {
+    width: 40%;
+    float: right;
+    padding: 40px 10px 10px 30px;
+  }
+
+  .container2 #rector {
+    width: 100%;
+    height: auto;
+    border-radius: 30px 0px 0px 0px;
+  }
+  .note {
+    width: 60%;
+    padding: 100px 150px;
+    text-align: justify;
+  }
+  .note h3 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .note h3#welcome {
+    color: green;
+  }
+  .note h3#name {
+    font-size: 16px;
+  }
+  .note #fpi {
+    text-align: justify;
+    line-height: 2;
+  }
+
+  .note #fpi a {
+    text-decoration: underline;
+    color: green;
+  }
+  .note .img {
+    width: 20%;
+    margin: auto;
+  }
+  .note .img #sign {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container2 {
+    width: 100%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    height: 350px;
+  }
+
+  .container2 #rector {
+    width: 200px;
+    height: auto;
+    margin: 10px 10px 0px 10px;
+    float: left;
+  }
+
+  .container2 #sign {
+    display: none;
+  }
+
+  .content #welcome {
+    display: none;
+  }
+
+  .content #fpi {
+    text-align: justify;
+    line-height: 2;
+  }
+
+  .content #fpi a {
+    text-decoration: underline;
+    color: green;
+  }
+
+  .content #name {
+    font-size: 15px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
